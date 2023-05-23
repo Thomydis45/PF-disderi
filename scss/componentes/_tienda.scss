@@ -1,0 +1,22 @@
+.orden_tienda{
+    display: flex;
+    flex-flow: wrap ;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+
+.titulo_mapa{
+    font-family: 'PT Serif', serif;
+    color: rgb(0, 0, 0);
+    display: flex;
+    // flex-flow: row  wrap;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 20px;
+    align-items: center;
+}
+

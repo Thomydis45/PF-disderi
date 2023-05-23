@@ -1,0 +1,15 @@
+.blog_texto {
+	font-family: $font-family_4;
+	color: nth($colores,4);
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	margin: 30px;
+	padding: 40px;
+}
+.video {
+	display: flex;
+	justify-content: center;
+	justify-self: center;
+	margin: 50px;
+}

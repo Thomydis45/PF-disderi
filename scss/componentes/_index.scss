@@ -1,0 +1,78 @@
+
+    h1{
+    color: nth($colores, 2 );
+	letter-spacing: 2px;
+	font-family: $font-family_2;}
+     
+     .apertura{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;}
+     
+     .locura{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;}
+     
+     .espacio{
+        margin: 5px;
+        padding: 20px;}
+     
+     .imagenboton{
+        margin-top: 38px;
+        margin-bottom: 52px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;}
+     
+     .botoncito{
+        box-shadow: inset 0px 1px 0px 0px #f5978e;
+        background: linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
+        background-color: nth($colores, 8 );
+        border-radius: 6px;
+        border: 1px solid #d02718;
+        display: inline-block;
+        cursor: pointer;
+        color: nth($colores, 3 );
+        font-family: nth($colores, 3 );
+        font-size: 15px;
+        font-weight: bold;
+        padding: 6px 24px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #810e05;
+        text-align: center;
+        &:hover {
+            background: linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);
+            background-color: nth($colores, 9)     
+        }
+        &:active {
+            position: relative;
+            top: 1px;}
+		}
+     
+     .oritent{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;}
+    .anotate{	
+        font-size: 25px;
+        font-family: $font-family_1;
+        letter-spacing: 1.2px;}
+	
+	
+
+
+	
+	
+

@@ -1,0 +1,9 @@
+.pie {
+	background-color: map-get($pie, bc-color );
+	color: map-get($pie, si-color );
+}
+svg {
+	margin: map-get($pie, mrg );
+	width: map-get($pie, wd-hg );
+	height: map-get($pie, wd-hg );
+}

@@ -1,0 +1,25 @@
+.titulo_nosotros {
+	font-family: $font-family_4;
+	color: nth($colores,4);
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	margin: 15px;
+	padding: 20px;
+}
+.nosotros_mio {
+	margin: 25px;
+	padding: 20px;
+}
+.texto_mio {
+	color: nth($colores,5);
+	font-size: 24px;
+	display: flex;
+	justify-content: center;
+}
+.titulo_carta {
+	color: nth($colores,6 );
+	font-size: 32px;
+}
+
+
