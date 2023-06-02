@@ -26,13 +26,7 @@
         margin: 5px;
         padding: 20px;}
      
-     .imagenboton{
-        margin-top: 38px;
-        margin-bottom: 52px;
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;}
+    
      
      .botoncito{
         box-shadow: inset 0px 1px 0px 0px #f5978e;
@@ -57,7 +51,22 @@
         &:active {
             position: relative;
             top: 1px;}
-		}
+         }
+
+     .imagenboton{
+        margin-top: 38px;
+        margin-bottom: 52px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;}
+
+        .flexito{
+         display: flex;
+         flex-flow: column wrap;
+         justify-content: center;
+         align-items: center;
+        }
      
      .oritent{
         display: flex;
@@ -70,8 +79,6 @@
         font-family: $font-family_1;
         letter-spacing: 1.2px;}
 	
-	
-
 
 	
 	
